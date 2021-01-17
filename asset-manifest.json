@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f2814fb.chunk.css",
+    "main.js": "/static/js/main.c0f1765c.chunk.js",
+    "main.js.map": "/static/js/main.c0f1765c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.732fb7f2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.732fb7f2.js.map",
+    "static/js/2.5815c369.chunk.js": "/static/js/2.5815c369.chunk.js",
+    "static/js/2.5815c369.chunk.js.map": "/static/js/2.5815c369.chunk.js.map",
+    "static/js/3.5ec4ea93.chunk.js": "/static/js/3.5ec4ea93.chunk.js",
+    "static/js/3.5ec4ea93.chunk.js.map": "/static/js/3.5ec4ea93.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2f2814fb.chunk.css.map": "/static/css/main.2f2814fb.chunk.css.map",
+    "static/js/2.5815c369.chunk.js.LICENSE.txt": "/static/js/2.5815c369.chunk.js.LICENSE.txt",
+    "static/media/add.599c6f4f.png": "/static/media/add.599c6f4f.png",
+    "static/media/bread.7c2fa2cb.jpg": "/static/media/bread.7c2fa2cb.jpg",
+    "static/media/empty.5e8baea8.png": "/static/media/empty.5e8baea8.png",
+    "static/media/expire.47b14ce7.png": "/static/media/expire.47b14ce7.png",
+    "static/media/full.bcf76546.png": "/static/media/full.bcf76546.png",
+    "static/media/logoLarge.596037da.png": "/static/media/logoLarge.596037da.png",
+    "static/media/partway.96b4daa5.png": "/static/media/partway.96b4daa5.png",
+    "static/media/pfp.7062046a.png": "/static/media/pfp.7062046a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.732fb7f2.js",
+    "static/js/2.5815c369.chunk.js",
+    "static/css/main.2f2814fb.chunk.css",
+    "static/js/main.c0f1765c.chunk.js"
+  ]
+}
