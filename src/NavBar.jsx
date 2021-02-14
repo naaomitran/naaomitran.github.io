@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
+import { HashRouter, Route, Link } from "react-router-dom";
 import Logo from './assets/logoLarge.png'
 import { Grommet, Header, Button, Icons, Menu, Box } from 'grommet'
 import { Avatar, Anchor, Nav } from 'grommet';
 import { grommet } from 'grommet/themes';
+import HP from './homepage/HP';
+import Project from './projects/Project';
+import About from './about/About';
+import Contact from './contact/Contact'
 
 
 
@@ -32,6 +37,26 @@ class NavBar extends Component {
           
             <Grommet theme={customTheme} background="#ffe9e1">
             <Header background="#ffe9e1" pad="small" border={{color: '#9e8b7d', side: 'bottom'}}>
+              <HashRouter basename="/">
+                {/* <div>
+                  <ul>
+                    <li><Link to="/" src={Logo} size='xlarge' align='center'/></li>
+                    <li><Link to="/" color='#9e8b7d'>Home</Link></li>
+                    <li><Link to="/" color='#9e8b7d'>About</Link></li>
+                    <li><Link to="/" color='#9e8b7d'>Projects</Link></li>
+                    <li><Link to="/" color='#9e8b7d'>Contact</Link></li>
+                  </ul>
+
+                  <hr />
+
+                  <Route exact path="/" component={HP} />
+                  <Route path="/about" component={About} />
+                  <Route path="/projects" component={Project} />
+                  <Route path="/contact" component={Contact} />
+              
+              </div> */}
+
+
               <Anchor href='/'>
               <Avatar src={Logo} size='xlarge' align='center'/>
               </Anchor>
@@ -40,8 +65,10 @@ class NavBar extends Component {
                 <Anchor label="About" href="/about" color='#9e8b7d'/>
                 <Anchor label="Projects" href="/project" color='#9e8b7d'/>
                 <Anchor label="Contact" href="/contact" color='#9e8b7d'/>
-                {/* <Button label="Resume " href="/resume" color='#9e8b7d'/> */}
+                <Button label="Resume " href="/resume" color='#9e8b7d'/>
               </Nav>
+              </HashRouter>
+
             </Header>
           </Grommet>
 
