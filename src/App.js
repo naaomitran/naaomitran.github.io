@@ -10,25 +10,19 @@ import Resume from './NTResume.pdf';
 
 function App() {
   return (
-    <HashRouter basename="/"> 
+    <HashRouter basename="/subdirectory"> 
 
     <Router>
       <Switch>
-        <Route path='/about' component={About} />
-          {/* <About /> */}
-        {/* </Route> */}
-        <Route path='/project' component={Project} />
-          {/* <Project /> */}
-        {/* </Route> */}
-        <Route path='/contact' component={Contact} />
-          {/* <Contact /> */}
-        {/* </Route> */}
-        <Route path='/resume'>
+        <Route {`${process.env.PUBLIC_URL}/about`} component={About} />
+        <Route path={`${process.env.PUBLIC_URL}/projects`} component={Project} />
+        <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
+        <Route path={`${process.env.PUBLIC_URL}/resume`}>
           <Document file={Resume}>
           <Page />
           </Document>
         </Route>
-        <Route exact path='/' component={HP} />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={HP} />
           {/* <HP /> */}
         {/* </Route> */}
       </Switch>
