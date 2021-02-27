@@ -14,23 +14,23 @@ function App() {
 
     <Router>
       <Switch>
-        <Route path='/about'>
-          <About />
-        </Route>
-        <Route path='/project'>
-          <Project />
-        </Route>
-        <Route path='/contact'>
-          <Contact />
-        </Route>
+        <Route path='/about' component={About} />
+          {/* <About /> */}
+        {/* </Route> */}
+        <Route path='/project' component={Project} />
+          {/* <Project /> */}
+        {/* </Route> */}
+        <Route path='/contact' component={Contact} />
+          {/* <Contact /> */}
+        {/* </Route> */}
         <Route path='/resume'>
           <Document file={Resume}>
           <Page />
           </Document>
         </Route>
-        <Route exact path='/'>
-          <HP />
-        </Route>
+        <Route exact path='/' component={HP} />
+          {/* <HP /> */}
+        {/* </Route> */}
       </Switch>
 
     </Router>

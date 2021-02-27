@@ -43,7 +43,7 @@ class Content extends Component {
             <Paragraph size="large">
             I'm currently very open to new opportunities and would love to chat,
 
-            my<Anchor label="inbox" href="#" color='#9e8b7d' margin='xsmall'/> 
+            my<Anchor label="inbox" href="mailto:naaomitran@gmail.com" color='#9e8b7d' margin='xsmall'/> 
             is always open!
 
 

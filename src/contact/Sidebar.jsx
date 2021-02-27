@@ -21,7 +21,7 @@ const MainNavigation = () => (
         </Box>
         <Box direction='row-responsive'>
             <Button icon={<Instagram />} href='https://www.instagram.com/creamricecooks/'/>
-            <Button icon={<LinkedinOption href='https://www.linkedin.com/in/naaomitran/'/>} />                
+            <Button icon={<LinkedinOption />} href='https://www.linkedin.com/in/naaomitran/'/>             
         </Box>
 
 
