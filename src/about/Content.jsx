@@ -29,7 +29,7 @@ class Content extends Component {
             <Paragraph size='medium'>
             <Box pad='xsmall'>
             I enjoy the challenge of coming up with creative ideas and turning them into realities. 
-            I'm also very interested in AI and machine learning, as well as website building!
+            I'm interested in software developing, website building, and I love learning new technologies!
             </Box>
 
             <Box pad='xsmall'>
