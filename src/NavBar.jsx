@@ -63,9 +63,9 @@ class NavBar extends Component {
               <Nav direction="row" margin='small'>
                 <Anchor label="Home" href="/" color='#9e8b7d'/>
                 <Anchor label="About" href="/about" color='#9e8b7d'/>
-                <Anchor label="Projects" href="/project" color='#9e8b7d'/>
+                <Anchor label="Projects" href="/projects" color='#9e8b7d'/>
                 <Anchor label="Contact" href="/contact" color='#9e8b7d'/>
-                <Button label="Resume " href="/resume" color='#9e8b7d'/>
+                {/* <Button label="Resume " href="/resume" color='#9e8b7d'/> */}
               </Nav>
               </HashRouter>
 
