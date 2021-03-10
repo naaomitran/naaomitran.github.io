@@ -1,10 +1,18 @@
-import { Grommet, Image, Box, Button, Heading, grommet, Paragraph, Text } from 'grommet';
+import { Grommet, Image, Box, Button, Heading, grommet, Anchor, Paragraph, Text, Video } from 'grommet';
 import React, { Component } from 'react';
 import VKadd from '../assets/projectpics/add.png'
 import CApp1 from '../assets/projectpics/empty.png'
 import CApp2 from '../assets/projectpics/partway.png'
 import CApp3 from '../assets/projectpics/full.png'
 import VKexpire from '../assets/projectpics/expire.png'
+import Chip1 from '../assets/projectpics/chip1.png'
+import Chip2 from '../assets/projectpics/chip.png'
+import info from '../assets/projectpics/info.png'
+import firstpic from '../assets/projectpics/bye.png'
+import { Link } from 'react-router-dom';
+
+
+
 
 // ![alt text](//v2.grommet.io/assets/IMG_4245.jpg "Markdown Image")
 
@@ -18,6 +26,38 @@ class Content extends Component {
             <Box align="center" pad="large">
             
             <Heading>Some things I've built</Heading>
+            <Box direction='row-responsive'>
+            <Box alignSelf='start' pad='medium'> 
+            <Image src={firstpic} alignSelf='center'pad='medium'/>
+            <Image src={Chip1} alignSelf='center'pad='medium'/>
+            <Image src={Chip2} alignSelf='center'pad='medium'/>
+            <Image src={info} alignSelf='center'pad='medium'/>
+            
+            </Box>
+            <Box border={{ color: '#9e8b7d', size: 'medium' }} pad="medium" align="center">
+                <Paragraph size="large">
+            I attended cmd-f in March 2021 where a friend and I created 
+            
+            <Heading size='small'>Safe Garbage;</Heading> 
+            a web application that can take a picture of your item and identify what the material is.
+            </Paragraph>
+            <Paragraph>
+                We used Figma to create our icons and the basic template of the website and used JavaScript and React to implement the design.
+                We trained the system with a Kaggle dataset and were able to get ~80% accuracy, distinguishing 
+                between garbage and recyclables. Our goal is to train it so it can distinguish between compost and paper as well.
+            </Paragraph>
+
+            <Paragraph size="large">
+            
+            We have pages to direct the user to other resources if they are interested, including
+            <Anchor href='https://recyclebc.ca/' margin='xsmall' color='#9e8b7d'>Recycle BC</Anchor>.
+
+            </Paragraph>
+            <Text size='small' color='#9e8b7d'>JavaScript, React, Node.js, Python, Jupyter Notebook</Text>
+
+                </Box>
+            </Box>
+
             <Box direction="row-responsive" pad='medium'> 
             <Image src={CApp1} alignSelf='center'pad='medium'/>
             <Image src={CApp2} alignSelf='center'pad='medium'/>
