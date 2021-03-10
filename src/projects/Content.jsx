@@ -84,7 +84,7 @@ class Content extends Component {
             including different types of cars/fuel and adding a leadership board to encourages
             community engagement.
             </Paragraph>
-            <Text size='small' color='#9e8b7d'>java, AndroidStudio</Text>
+            <Text size='small' color='#9e8b7d'>Java, AndroidStudio</Text>
 
                 </Box>
                 
@@ -113,7 +113,7 @@ class Content extends Component {
             You can add and remove items, view a list of all items in your kitchen or only the expired items.
             </Paragraph>
 
-            <Text size='small' color='#9e8b7d'>java</Text>
+            <Text size='small' color='#9e8b7d'>Java</Text>
                 </Box>
                 
                 

@@ -34,7 +34,7 @@ class Content extends Component {
 
             <Box pad='xsmall'>
             Some technologies I've been working with are:
-            <Box>⭑ java ⭑ c++ ⭑ html ⭑ css ⭑ javascript ⭑ react </Box>
+            <Box>⭑ Java ⭑ C++ ⭑ HTML ⭑ CSS ⭑ JavaScript ⭑ React </Box>
             <Box>
             <Button label="what I'm working on" pad = "left"color='#9e8b7d' href='/project' 
             margin='small' alignSelf='center'/>
