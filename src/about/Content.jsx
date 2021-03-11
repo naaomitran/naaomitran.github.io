@@ -36,7 +36,7 @@ class Content extends Component {
             Some technologies I've been working with are:
             <Box>⭑ Java ⭑ C++ ⭑ HTML ⭑ CSS ⭑ JavaScript ⭑ React </Box>
             <Box>
-            <Button label="what I'm working on" pad = "left"color='#9e8b7d' href='/project' 
+            <Button label="what I'm working on" pad = "left"color='#9e8b7d' href='/projects' 
             margin='small' alignSelf='center'/>
             </Box>
             <Box>
