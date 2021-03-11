@@ -58,6 +58,7 @@ class Content extends Component {
                 </Box>
             </Box>
 
+{/* next project */}
             <Box direction="row-responsive" pad='medium'> 
             <Image src={CApp1} alignSelf='center'pad='medium'/>
             <Image src={CApp2} alignSelf='center'pad='medium'/>
@@ -97,7 +98,7 @@ class Content extends Component {
 
 
 
-{/* second project */}
+{/* next project */}
             <Box direction="row-responsive" pad='medium'> 
             <Image src={VKadd} alignSelf='center'pad='medium'/>
             <Image src={VKexpire} alignSelf='center'pad='medium'/>
